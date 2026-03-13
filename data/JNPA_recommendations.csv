@@ -1,0 +1,2 @@
+Month,Shipment_Type,Transport_Mode,Destination,Risk,Primary_Cause,Secondary_Cause,Recommendation
+Oct 25,Import,Rail,Inland,1,High container demand,,Congestion detected but sufficient time buffer remains.
