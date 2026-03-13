@@ -1,3 +1,4 @@
+
 # JNPA Port Congestion Risk Analysis
 
 This project develops a machine learning framework to analyze congestion risk at Jawaharlal Nehru Port Authority (JNPA), India.
@@ -8,6 +9,17 @@ The system uses logistic regression to identify congestion risk and diagnose ope
 - Export gate congestion
 - Operational throughput pressure
 - High container demand
+
+## Objective
+
+Modern supply chain prediction models often act as black boxes.  
+This project develops a transparent congestion risk analysis framework for port logistics using logistic regression.
+
+The framework aims to:
+
+• predict congestion risk  
+• identify operational causes of congestion  
+• generate actionable logistics recommendations
 
 ## Workflow
 
@@ -33,3 +45,12 @@ Pandas
 Scikit-learn  
 Matplotlib  
 Seaborn
+
+## Model Performance
+
+Baseline Logistic Regression Model
+
+Accuracy: ~0.74  
+Recall (Congestion detection): ~0.67  
+
+The model successfully identifies congestion risk and provides interpretable operational drivers through the cause analysis layer.
